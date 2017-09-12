@@ -1,0 +1,99 @@
+/*  StyleSheet for portfolio page*/
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+body { 
+	background-image: url("../images/background02.jpg");
+	font-family: Calibri, Arial, sans-serif;
+}
+
+header {
+	height: 15em;
+	background-color: #1c467b;
+	margin-bottom: 1em;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.portfolioHeaders {
+	margin-right: auto;
+	margin-left: auto;
+}
+.methodIcon {
+	border: solid black 2px;
+	margin-bottom: 1em;
+	margin-top: 3em;
+	border-radius: 10px;
+	width: 100%;
+}
+h1{
+	font-family: Snell roundhand;
+	font-size: 48pt;
+	text-align: center;
+	color: white;
+	width: 100%
+}
+
+p {
+	font-size: 16pt;
+	text-align: center;
+	color: white;
+}
+
+#screenContainer {
+	background-color: #333;
+}
+
+.languageIcon {
+	border: solid black 2px;
+	margin-bottom: 1em;
+	margin-top: 3em;
+	border-radius: 10px;
+	width: 100%;
+}
+@media screen and (max-width: 395px){
+	p {
+		font-size: 12pt;
+	}
+}
+@media screen and (max-width: 767px){
+	h1 {
+		font-size: 40pt;
+	}
+	.portfolioHeaders {
+		margin-top: .3em;
+	}
+	.languageIcon {
+		margin-left: .1em;
+		margin-right: .1em;
+		margin-top: .3em;
+		margin-bottom: .3em;
+		width: 100%;
+	}
+	.methodIcon {
+		margin-top: .1em;
+	}
+}
+@media screen and (min-width: 768px){
+	.languageIcon {
+		margin-left: .1em;
+		margin-right: .1em;
+		margin-top: .3em;
+		margin-bottom: .3em;
+		width: 100%;
+	}
+	.methodIcon {
+		margin-top: .5em;
+	}
+}
+
+[class*="glyph"] {
+    color: gray;
+	padding: 5px;
+}
+
+
+
+
