@@ -5,21 +5,39 @@ header, footer, nav, section, article, aside {
 }
 
 body { 
-	background-image: url("../images/background02.jpg");
+	/* background-image: url("../images/background02.jpg");*/
+	/*background-color: black;*/
+	background-image: url("../images/background05.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 	font-family: Calibri, Arial, sans-serif;
 }
 
-header {
+/*header {
 	height: 15em;
-	background-color: #1c467b;
+	background-color: color|transparent|initial|inherit;
 	margin-bottom: 1em;
 	border-radius: 10px;
 	text-align: center;
 }
+*/
 
+#pageTitle{
+	float: right;
+	margin-top: 15em;
+}
+.jumbotron {
+	margin-top: 0px;
+}
+.navbar {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 .portfolioHeaders {
 	margin-right: auto;
 	margin-left: auto;
+	color: white;
 }
 .methodIcon {
 	border: solid black 2px;
@@ -30,20 +48,14 @@ header {
 }
 h1{
 	font-family: Snell roundhand;
-	font-size: 48pt;
+	font-size: 56pt;
 	text-align: center;
 	color: white;
-	width: 100%
-}
-
-p {
-	font-size: 16pt;
-	text-align: center;
-	color: white;
+	width: 100%;
 }
 
 #screenContainer {
-	background-color: #333;
+	background-color: color|transparent|initial|inherit;
 }
 
 .languageIcon {
@@ -53,17 +65,14 @@ p {
 	border-radius: 10px;
 	width: 100%;
 }
-@media screen and (max-width: 395px){
-	p {
-		font-size: 12pt;
-	}
-}
+
 @media screen and (max-width: 767px){
 	h1 {
 		font-size: 40pt;
 	}
 	.portfolioHeaders {
 		margin-top: .3em;
+		color: white;
 	}
 	.languageIcon {
 		margin-left: .1em;
@@ -80,20 +89,3 @@ p {
 	.languageIcon {
 		margin-left: .1em;
 		margin-right: .1em;
-		margin-top: .3em;
-		margin-bottom: .3em;
-		width: 100%;
-	}
-	.methodIcon {
-		margin-top: .5em;
-	}
-}
-
-[class*="glyph"] {
-    color: gray;
-	padding: 5px;
-}
-
-
-
-
