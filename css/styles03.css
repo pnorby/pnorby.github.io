@@ -5,13 +5,26 @@ header, footer, nav, section, article, aside {
 }
 
 body { 
-	/* background-image: url("../images/background02.jpg");*/
-	background-color: #42528a;
-	/* background-image: url("../images01/background02.jpg"); */
+	/* background-image: url("../images01/background02.jpg");*/
+	/* background-color: #42528a;*/
+	background-image: url("../images01/background03.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 	font-family: Calibri, Arial, sans-serif;
+}
+#indexHeader {
+	margin: auto;
+	margin-top: 20em;
+	background-color: #304830;
+	opacity: 0.8;
+	border-radius: 20px;
+}
+
+#indexSubtitle {
+	color: white;
+	border: solid white 2px;
+	margin-bottom: 1em;
 }
 
 /*header {
@@ -22,7 +35,10 @@ body {
 	text-align: center;
 }
 */
-
+p#languageHeader {
+	text-align: center;
+	font-size: 18pt;
+}
 #pageTitle{
 	float: right;
 	margin-top: 15em;
