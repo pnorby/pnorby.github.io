@@ -135,7 +135,7 @@ h1{
 	}
 	#indexTextBox {
 	margin: auto;
-	margin-top: 3em;
+	margin-top: 5em;
 
 	}
 	
@@ -158,22 +158,6 @@ h1{
 	}
 }
 
-@media screen and (max-width: 260px){
-	#indexHeader {
-	font-size: 20pt;
-	margin: auto;
-	margin-top: 1em;
-	
-	}
-	
-	#indexSubtitle {
-	color: white;
-	border: solid white 2px;
-	margin: auto;
-	margin-bottom: 1em;
-	font-size: 12pt;
-	}	
-}
 [class*="glyph"] {
     color: gray;
 	padding: 5px;
