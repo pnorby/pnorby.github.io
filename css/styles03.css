@@ -6,8 +6,8 @@ header, footer, nav, section, article, aside {
 
 body { 
 	/* background-image: url("../images/background02.jpg");*/
-	/*background-color: black;*/
-	background-image: url("../images01/background02.jpg");
+	background-color: #42528a;
+	/* background-image: url("../images01/background02.jpg"); */
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
