@@ -3,12 +3,12 @@
 header, footer, nav, section, article, aside {
         display: block;   
 }
-body { 
+#screenContainer{ 
 	/* background-image: url("../images01/background02.jpg");*/
 	background-color: #427963;
 }
 
-#indexBody {
+body {
 	background-image: url("../images01/background03.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
