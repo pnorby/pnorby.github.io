@@ -8,20 +8,26 @@ header, footer, nav, section, article, aside {
 	background-color: #427963;
 }
 
-body {
-	background-image: url("../images01/background03.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
+body, html {
+	height: 100%;
+}
+.bg { 
+    /* The image used */
+    background-image: url("../images01/background06.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 #indexTextBox {
-	margin: auto;
-	margin-top: 20em;
-	background-color: #304830;
-	opacity: 0.8;
-	border-radius: 20px;
+	margin-top: 5em;
+	text-align: center;
 }
 
 #indexHeader {
@@ -31,7 +37,7 @@ body {
 #indexSubtitle {
 	color: white;
 	border: solid white 2px;
-	margin-bottom: 1em;
+	padding: .2em;
 }
 
 #firstPanel {
@@ -73,8 +79,8 @@ p#languageHeader {
 	border-radius: 10px;
 	width: 100%;
 }
-h1{
-	font-family: "Georgia", Times, serif;;
+#indexHeader{
+	font-family: "Georgia", Times, serif;
 	font-size: 56pt;
 	text-align: center;
 	color: white;
@@ -93,32 +99,11 @@ h1{
 	width: 100%;
 }
 
-@media screen and (max-width: 767px){
-	h1 {
-		font-size: 40pt;
-	}
+@media screen and (min-width: 481px){
 	#indexTextBox {
-	margin: auto;
-	margin-top: 20em;
-	background-color: #304830;
+		background: none;
 	}
-	.portfolioHeaders {
-		margin-top: .3em;
-		color: white;
-	}
-	.languageIcon {
-		margin-left: .1em;
-		margin-right: .1em;
-		margin-top: .3em;
-		margin-bottom: .3em;
-		width: 100%;
-	}
-	.methodIcon {
-		margin-top: .1em;
-	}
-}
-@media screen and (min-width: 768px){
-	.languageIcon {
+		.languageIcon {
 		margin-left: .1em;
 		margin-right: .1em;
 		margin-top: .3em;
@@ -130,25 +115,35 @@ h1{
 	}
 }
 @media screen and (max-width: 480px){
-		
-	}
-	#indexHeader {
-	margin: auto;
 	
-	}
+.bg {
+	background-image: url("../images01/background03.jpg"); 
+}	
+	
 	#indexTextBox {
 	margin: auto;
-	margin-top: 10em;
-
+	margin-top: 5em;
+	background-color: #304830;
+	opacity: 0.8;
+	border-radius: 20px;
+	}
+	
+	#indexHeader {
+	margin: auto;
+	font-size: 36pt;
 	}
 	
 	#indexSubtitle {
 	color: white;
-	border: solid white 2px;
+	border: none;
 	margin: auto;
 	margin-bottom: 1em;
 	font-size: 26pt;
-}
+    }
+	
+	h3 {
+		border: solid white 2px;
+	}
 	
 	#pageTitle{
 	float: none;
