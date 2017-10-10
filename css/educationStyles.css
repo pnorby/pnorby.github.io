@@ -15,36 +15,26 @@ body {
 .row {
 	padding: 1em;
 }
+
 #firstSection {
 	background-color: #6d92be;
-	margin-top: 0;
 }
 
 img {
 	width: 100%;
 }
 
-.classDescription {
-	font-size: 36pt;
-}
-
-#educationTitle {
-	color: white;
-	background-color: #6d92be;
-	font-family: "Georgia", Times, serif;
-}
-
-#javaTitle {
-    color: purple;
-	background-color: white;
-	font-family: "Georgia", Times, serif;
-}
 #javaBook {
 	padding: 1em;
 }
 
-#phpTitle {
+.classDescription{
 	color: purple;
+	background-color: white;
+	font-family: "Georgia", Times, serif;
+}
+.upToDate{
+	color: black;
 	background-color: white;
 	font-family: "Georgia", Times, serif;
 }
@@ -53,7 +43,6 @@ img {
 }
 h1{
 	text-align: center;
-	font-size: 56pt;
 	padding: 1em;
 }
 
@@ -61,27 +50,100 @@ h3{
 	text-align: center;
 	font-size: 40pt;
 }
+@media screen and (min-width: 1401px){
+	h3 {
+		padding: .3em;
+	}
+	.classDescription {
+	font-size: 32pt;
+	}
+	.upToDate {
+	font-size: 20pt;
+	}
+}
+@media screen and (max-width: 1400px){
+	.classDescription {
+	font-size: 32pt;
+}
+	.upToDate {
+	font-size: 20pt;
+}
+	
+	h1{
+	text-align: center;
+	font-size: 48 pt;
+	padding: 1 em;
+	}
 
+	.row {
+		padding: .5em;
+	}
+}
+@media screen and (max-width: 1100px){
+	.classDescription {
+	font-size: 24pt;
+}
+    .upToDate {
+	font-size: 20pt;
+    }
+	
+	h1{
+	text-align: center;
+	font-size: 32 pt;
+	padding: 1 em;
+	}
+
+    h3{
+	text-align: center;
+	font-size: 36pt;
+	}
+ 
+	.row {
+		padding: .5em;
+	}
+}
 @media screen and (max-width: 767px){
-	img {
+	.classDescription {
+	font-size: 20pt;
+    }
+    .upToDate {
+	font-size: 18pt;
+    }
+	
+	h1{
+	text-align: center;
+	font-size: 36pt;
+	padding: 1 em;
+	}
+
+    h3{
+	text-align: center;
+	font-size: 32pt;
+	}
+    img {
 		display: none;
 	}
 	.row {
 		padding: .5em;
 	}
 }
-
 @media screen and (max-width: 480px){
 	h3 {
 		padding: .3 em;
-		font-size: 30pt;
+		font-size: 28pt;
 	}
 	
 	.classDescription {
-		font-size: 20pt;
+		font-size: 16pt;
 	}
 	h1 {
 		font-size: 34pt;
 		padding: .2 em;
 	}
 }
+
+
+
+
+
+
