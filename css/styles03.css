@@ -114,6 +114,15 @@ p#languageHeader {
 		margin-top: .5em;
 	}
 }
+@media screen and (min-width: 481px) and (max-width: 580px){
+	#indexTextBox {
+	float: right;
+	margin-right: 1em;
+	margin-top: 1em;
+	background: none;
+	}
+	
+}
 @media screen and (max-width: 480px){
 	
 .bg {
