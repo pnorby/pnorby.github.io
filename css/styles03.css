@@ -95,7 +95,7 @@ p#languageHeader {
 	width: 100%;
 }
 
-@media screen and (min-width: 481px){
+@media screen and (min-width: 581px){
 	#indexTextBox {
 		background: none;
 	}
@@ -111,7 +111,7 @@ p#languageHeader {
 	}
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 580px){
 	
 .bg {
 	background-image: url("../images01/background03.jpg"); 
