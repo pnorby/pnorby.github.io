@@ -95,30 +95,8 @@ p#languageHeader {
 	border-radius: 10px;
 	width: 100%;
 }
-@media only screen and (min-width: 481px) and (max-width: 750px){
-	#indexTextBox {
-	width: 50%;
-	float: right;	
-	margin-right: 1em;
-	margin-top: 1em;
-	background: none;
-	}
-	
-	#indexHeader {
-	font-size: 46pt;
-	}
-	#indexSubtitle {
-	color: white;
-	margin-bottom: 1em;
-	font-size: 32pt;
-    }
-}
 
-[class*="glyph"] {
-    color: gray;
-	padding: 5px;
-}
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
 	
 .bg {
 	background-image: url("../images01/background03.jpg"); 
@@ -134,7 +112,7 @@ p#languageHeader {
 	
 	#indexHeader {
 	margin: auto;
-	font-size: 36pt;
+	font-size: 46pt;
 	}
 	
 	#indexSubtitle {
@@ -142,7 +120,7 @@ p#languageHeader {
 	border: none;
 	margin: auto;
 	margin-bottom: 1em;
-	font-size: 22pt;
+	font-size: 32pt;
     }
 	
 	h2 {
@@ -159,7 +137,10 @@ p#languageHeader {
 		font-size: 12pt;
 	}
 }
-
+[class*="glyph"] {
+    color: gray;
+	padding: 5px;
+}
 
 
 
