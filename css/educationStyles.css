@@ -1,0 +1,83 @@
+/*  StyleSheet for portfolio education page*/
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+body {
+	background-color: #6d92be;
+}
+
+.navbar-inverse {
+	margin-bottom: 0;
+}
+
+.row {
+	padding: 1em;
+}
+#firstSection {
+	background-color: #6d92be;
+	margin-top: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.classDescription {
+	font-size: 36pt;
+}
+
+#educationTitle {
+	color: white;
+	background-color: #6d92be;
+	font-family: "Georgia", Times, serif;
+}
+
+#javaTitle {
+    color: purple;
+	background-color: white;
+	font-family: "Georgia", Times, serif;
+}
+#javaBook {
+	padding: 1em;
+}
+
+#phpTitle {
+	color: purple;
+	background-color: white;
+	font-family: "Georgia", Times, serif;
+}
+#phpBook {
+	padding: 1em;
+}
+h1{
+	text-align: center;
+	font-size: 56pt;
+	padding: 1em;
+}
+
+h3{
+	text-align: center;
+	font-size: 40pt;
+}
+
+@media screen and (max-width: 767px){
+	img {
+		display: none;
+	}
+	.row {
+		padding: .5em;
+	}
+}
+
+@media screen and (max-width: 480px){
+	h3 {
+		padding: .3 em;
+		font-size: 30pt;
+	}
+	
+	.classDescription {
+		font-size: 20pt;
+	}
+}

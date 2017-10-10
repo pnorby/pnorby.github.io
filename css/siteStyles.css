@@ -1,0 +1,9 @@
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+#educationTitle {
+	background-color: #6d92be;
+}
+
+
