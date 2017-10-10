@@ -28,6 +28,7 @@ body, html {
 #indexTextBox {
 	margin-top: 5em;
 	text-align: center;
+	background: none;
 }
 
 #indexSubtitle {
@@ -94,23 +95,29 @@ p#languageHeader {
 	border-radius: 10px;
 	width: 100%;
 }
-
-@media screen and (min-width: 481px){
+@media only screen and (min-width: 481) and (max-width: 750px){  {
 	#indexTextBox {
-		background: none;
+	width: 50%;
+	float: right;	
+	margin-right: 1em;
+	margin-top: 1em;
+	background: none;
 	}
-		.languageIcon {
-		margin-left: .1em;
-		margin-right: .1em;
-		margin-top: .3em;
-		margin-bottom: .3em;
-		width: 100%;
+	
+	#indexHeader {
+	font-size: 46pt;
 	}
-	.methodIcon {
-		margin-top: .5em;
-	}
+	#indexSubtitle {
+	color: white;
+	margin-bottom: 1em;
+	font-size: 32pt;
+    }
 }
 
+[class*="glyph"] {
+    color: gray;
+	padding: 5px;
+}
 @media screen and (max-width: 480px){
 	
 .bg {
@@ -152,29 +159,7 @@ p#languageHeader {
 		font-size: 12pt;
 	}
 }
-@media only screen and (orientation: landscape) {
-	#indexTextBox {
-	width: 50%;
-	float: right;	
-	margin-right: 1em;
-	margin-top: 1em;
-	background: none;
-	}
-	
-	#indexHeader {
-	font-size: 46pt;
-	}
-	#indexSubtitle {
-	color: white;
-	margin-bottom: 1em;
-	font-size: 32pt;
-    }
-}
 
-[class*="glyph"] {
-    color: gray;
-	padding: 5px;
-}
 
 
 
