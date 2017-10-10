@@ -95,7 +95,7 @@ p#languageHeader {
 	width: 100%;
 }
 
-@media screen and (min-width: 581px){
+@media screen and (min-width: 481px){
 	#indexTextBox {
 		background: none;
 	}
@@ -111,7 +111,7 @@ p#languageHeader {
 	}
 }
 
-@media screen and (min-width: 320px) and (max-width: 580px){
+@media screen and (max-width: 480px){
 	
 .bg {
 	background-image: url("../images01/background03.jpg"); 
@@ -151,6 +151,24 @@ p#languageHeader {
 	p {
 		font-size: 12pt;
 	}
+}
+@media only screen and (orientation: landscape) {
+	#indexTextBox {
+	width: 50%;
+	float: right;	
+	margin-right: 1em;
+	margin-top: 1em;
+	background: none;
+	}
+	
+	#indexHeader {
+	font-size: 46pt;
+	}
+	#indexSubtitle {
+	color: white;
+	margin-bottom: 1em;
+	font-size: 32pt;
+    }
 }
 
 [class*="glyph"] {
