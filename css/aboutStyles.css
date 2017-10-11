@@ -25,6 +25,7 @@ h1 {
 }
 #aboutTextBox {
 	float: right;
+	background: none;
 }
 
 #aboutMe {
@@ -58,6 +59,7 @@ p {
 	}
 	#aboutTextBox {
 		float: left;
+		background-color: #6d92be; 
 	}
 	
 	#aboutMe {
