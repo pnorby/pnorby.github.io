@@ -42,8 +42,11 @@ img {
 	padding: 1em;
 }
 h1{
+	font-family: "Georgia", Times, serif;
+	color: white;
 	text-align: center;
-	padding: 1em;
+	padding: .5em;
+	font-size: 56pt;
 }
 
 h3{
@@ -72,7 +75,7 @@ h3{
 	h1{
 	text-align: center;
 	font-size: 48 pt;
-	padding: 1 em;
+	padding:  .5em;
 	}
 
 	.row {
@@ -89,8 +92,8 @@ h3{
 	
 	h1{
 	text-align: center;
-	font-size: 32 pt;
-	padding: 1 em;
+	font-size: 42pt;
+	padding: .5em;
 	}
 
     h3{
@@ -113,16 +116,14 @@ h3{
 	h1{
 	text-align: center;
 	font-size: 36pt;
-	padding: 1 em;
+	padding: .5em;
 	}
 
     h3{
 	text-align: center;
 	font-size: 32pt;
 	}
-    img {
-		display: none;
-	}
+    
 	.row {
 		padding: .5em;
 	}
