@@ -23,33 +23,41 @@ h1 {
 	font-family: "Georgia", Times, serif;
 	font-size: 32pt;
 }
+#aboutTextBox {
+	float: right;
+}
+
 #aboutMe {
     border: solid gray 2px;
 	border-radius: 10px;
 	background: none;
 	float: right;
 	color: gray;
-	margin-right: 2em;
-	margin-top: 2em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding: 1em;
 }
 
 p {
 	font-size: 16pt;
 }
-
-@media screen and (max-width: 767px){
+@media screen and (max-width: 766px){
 	.bg {
+		margin: 1em;
 		background-image: none;
 		background-color: #6d92be;
+	}
+	h1 {
+		font-size: 28pt;
 	}
 	
 	#aboutMe {
     border: solid white 2px;
 	border-radius: 10px;
+	float: none;
 	background: none;
 	color: white;
-	padding: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin: 1em 1em 1em 1em;
     }
 }
