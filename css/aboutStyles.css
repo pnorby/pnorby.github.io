@@ -42,6 +42,10 @@ h1 {
 p {
 	font-size: 16pt;
 }
+
+#portfolioPicture {
+	display: none;
+}
 @media screen and (max-width: 766px){
 	.bg {
 		margin: 1em;
@@ -60,4 +64,8 @@ p {
 	color: white;
 	margin: 1em 1em 1em 1em;
     }
+	#portfolioPicture {
+		display: block;
+		width: 100%;
+	}
 }
