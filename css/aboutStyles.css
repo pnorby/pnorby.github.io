@@ -50,6 +50,8 @@ p {
 	.bg {
 		background-image: none;
 		background-color: #6d92be;
+		background-repeat: repeat;
+        background-size: cover;
 	}
 	h1 {
 		font-size: 28pt;
