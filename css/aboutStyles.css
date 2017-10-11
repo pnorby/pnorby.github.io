@@ -48,6 +48,7 @@ p {
 }
 @media screen and (max-width: 766px){
 	.bg {
+		background-image: none;
 		background-color: #6d92be;
 	}
 	h1 {
