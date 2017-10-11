@@ -48,7 +48,6 @@ p {
 }
 @media screen and (max-width: 766px){
 	.bg {
-		margin: 1em;
 		background-image: none;
 		background-color: #6d92be;
 	}
