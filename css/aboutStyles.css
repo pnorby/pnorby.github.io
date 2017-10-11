@@ -64,7 +64,7 @@ p {
 	float: none;
 	background: none;
 	color: white;
-	margin: 1em 1em 1em 1em;
+	margin: auto;
     }
 	#portfolioPicture {
 		display: block;
