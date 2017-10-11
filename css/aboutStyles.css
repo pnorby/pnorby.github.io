@@ -48,21 +48,19 @@ p {
 }
 @media screen and (max-width: 766px){
 	.bg {
-		background-image: none;
 		background-color: #6d92be;
 	}
 	h1 {
 		font-size: 28pt;
 	}
 	#aboutTextBox {
-		float: none;
+		float: left;
 	}
 	
 	#aboutMe {
     border: solid white 2px;
 	border-radius: 10px;
-	float: none;
-	background: none;
+	background-color: #6d92be; 
 	color: white;
 	margin: auto;
     }
