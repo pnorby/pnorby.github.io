@@ -1,0 +1,20 @@
+/*  StyleSheet for portfolio education page*/
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+body {
+	background-color: #182432;
+}
+
+img, p {
+	margin: 1em 1em 1em 1em;
+	width: 100%;
+}
+
+p {
+	color: white;
+	font-size: 16pt;
+}
+
