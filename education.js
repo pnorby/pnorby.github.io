@@ -23,5 +23,8 @@ function selectEducation(){
     var newSelectedClass = document.getElementById(theTrigger.value);
 
     newSelectedClass.className = "panel panel-danger";
+	if (!!newSelectedClass && newSelectedClass.scrollIntoView) {
+       newSelectedClass.scrollIntoView();
+   }
 
 }
