@@ -1,0 +1,17 @@
+/*  StyleSheet for portfolio experience page*/
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+body {
+	background-color: lightblue;
+}
+
+p {
+	color: white;
+}
+
+.navbar-inverse {
+	margin-bottom: 0;
+}
