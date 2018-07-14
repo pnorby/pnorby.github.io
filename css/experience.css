@@ -10,8 +10,15 @@ body {
 
 p {
 	color: white;
+	font-size: 14pt;
+	padding: 1em;
 }
 
 .navbar-inverse {
 	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 20pt;
+	text-align: center;
 }
