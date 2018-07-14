@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="education.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" type="text/css" href="css/educationStyles.css">
 </head>
 
@@ -58,10 +59,22 @@
 </div>
 </div>
 </p>
-
-<div class="row">	
+	<div class="row">
+	<button class="headerbtn" onclick="selectEducation()" value="java">JAVA</button>
+	<button class="headerbtn" onclick="selectEducation()" value="php">PHP</button>
+	<button class="headerbtn" onclick="selectEducation()" value="sql">SQL</button>
+	<button class="headerbtn" onclick="selectEducation()" value="jscript">JavaScript</button>
+	<button class="headerbtn" onclick="selectEducation()" value="webdev">Into to web dev</button>
+	<button class="headerbtn" onclick="selectEducation()" value="advwebdev">Advanced Web Dev</button>
+	<button class="headerbtn" onclick="selectEducation()" value="sysdes">Systems Design</button>
+	<button class="headerbtn" onclick="selectEducation()" value="net">ASP.NET</button>
+	<button class="headerbtn" onclick="selectEducation()" value="sysana">Systems Analysis</button>
+	<button class="headerbtn" onclick="selectEducation()" value="advjava">Advanced Java</button>
+	<button class="headerbtn" onclick="selectEducation()" value="advphp">Advanced PHP</button>
+	</div>
+	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="java" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Java</h3>
@@ -82,11 +95,11 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="php" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>PHP with MySQL</h3>
@@ -108,11 +121,11 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="sql" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>SQL</h3>
@@ -133,11 +146,12 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+	</div>
+	<div class="row">
+	
 		<div class="col-sm-12 col-md-12 col-lg-4 col-xs-12">
-		<div class="panel panel-primary">
+		<div id="jscript" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>JavaScript</h3>
@@ -159,11 +173,11 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
+	
 		<div class="col-sm-12 col-md-12 col-lg-4 col-xs-12">
-		<div class="panel panel-primary">
+		<div id="webdev" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Intro to Web Design</h3>
@@ -185,11 +199,11 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="advwebdev" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Advanced Web Design</h3>
@@ -210,11 +224,12 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+	</div>
+	<div class="row">
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="sysdes" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Systems Design</h3>
@@ -233,11 +248,11 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="net" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>ASP.NET</h3>
@@ -258,11 +273,11 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="sysana" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Systems Analysis</h3>
@@ -280,11 +295,12 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+	</div>
+	<div class="row">
+	
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="advjava" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Advanced Java</h3>
@@ -302,11 +318,10 @@
 		</div>
 		</div>
 		</div>
-</div>
 
-<div class="row">	
+
 		<div class="col-sm-12 col-md-12 col-lg-4">
-		<div class="panel panel-primary">
+		<div id="advphp" class="panel panel-primary">
 		<div class="panel panel-heading">
 		<div class="program-box">
         <h3>Advanced PHP</h3>
@@ -322,6 +337,7 @@
 		</div>
 		</div>
 		</div>
-</div>
+	</div>
+
 </body>
 </html>

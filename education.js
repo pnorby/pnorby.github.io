@@ -1,22 +1,27 @@
-//put an id on div's with panel primary
- 
 
 function selectEducation(){
+	console.log("made it here");
+	var theTrigger;
+	if(window.event) {
+		theTrigger = window.event.srcElement;
+	} else {
+		theTrigger = this;
+	}
+	console.log(theTrigger.value);
+    if (!document.getElementsByClassName("panel panel-danger")){
 
-    if (!document.getElementByClassName("panel panel-success"){
+    } else {
+		console.log("made it into else");
+        var selectedClass = document.getElementsByClassName("panel panel-danger");
 
-        } else {
+        for(i=0; i<selectedClass.length; i++){
+			selectedClass[i].className = "panel panel-primary"
+		}
+    }
+            
 
-            var selectedClass = document.getElementByClassName("panel panel-succes");
+    var newSelectedClass = document.getElementById(theTrigger.value);
 
-            selectedClass.className = "panel panel-primary";
-
-        }
-
-               
-
-    var newSelectedClass = document.getElementById(this.value);
-
-    newSelectedClass.className = "panel panel-success";
+    newSelectedClass.className = "panel panel-danger";
 
 }
