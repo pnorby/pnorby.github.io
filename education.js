@@ -1,4 +1,8 @@
 
+$(function(){
+    $("#accordion").accordion();
+});
+
 function selectEducation(){
 	console.log("made it here");
 	var theTrigger;
