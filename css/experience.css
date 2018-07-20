@@ -29,6 +29,10 @@ p {
 	margin-bottom: 0;
 }
 
+#firstSection {
+	background-color: #182432;
+}
+
 h1{
 	background-color:#182432;
 	font-family: "Georgia", Times, serif;
