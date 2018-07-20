@@ -27,6 +27,7 @@ p {
 	padding: 1em;
 	background-color: #b0b4b9;
 	border: solid white 2px;
+	box-shadow: 10px 10px 5px grey;
 }
 
 .navbar-inverse {
