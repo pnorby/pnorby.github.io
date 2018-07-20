@@ -17,6 +17,10 @@ html {
     background-size: cover;
 }
 
+#educationAccordion {
+    padding: 2em;
+}
+
 .navbar-inverse {
 	margin-bottom: 0;
 }
