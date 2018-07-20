@@ -17,6 +17,10 @@ html {
     background-size: cover;
 }
 
+#experienceContent {
+	padding: 2em;
+}
+
 p {
 	color: white;
 	font-size: 14pt;
