@@ -59,7 +59,7 @@ h1{
 	color: white;
 	text-align: center;
 	padding: .3em;
-	font-size: 56pt;
+	
 }
 
 h3{
@@ -75,6 +75,10 @@ h3{
 	}
 	.upToDate {
 	font-size: 14pt;
+	}
+	
+	h1 {
+	font-size: 48pt;
 	}
 }
 @media screen and (max-width: 1400px){
