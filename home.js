@@ -1,6 +1,6 @@
 function homeLoad(){
-    var title = document.getElementById("indexTextBox");
+    document.getElementById("indexTextBox").style.color = "red";
 	console.log("made it in");
-	title.style.bg = "red";
+	
 	//title.style.transition = "opacity .5";
 }
