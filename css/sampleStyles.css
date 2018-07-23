@@ -18,3 +18,12 @@ p {
 	font-size: 16pt;
 }
 
+h1{
+	font-family: "Georgia", Times, serif;
+	color: white;
+	text-align: center;
+	padding: .3em;
+	font-size: 48pt;
+	
+}
+
