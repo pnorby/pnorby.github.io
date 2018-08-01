@@ -4,6 +4,9 @@ header, footer, nav, section, article, aside {
         display: block;   
 }
 
+#firstSection {
+    background-color: #182432;
+}
 img, p {
 	margin: 1em 1em 1em 1em;
 	width: 100%;
@@ -15,7 +18,7 @@ p {
 
 h1{
 	font-family: "Georgia", Times, serif;
-	background-color: #182432
+	background-color: #182432;
 	color: white;
 	text-align: center;
 	padding: .3em;
