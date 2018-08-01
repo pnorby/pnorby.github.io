@@ -4,17 +4,12 @@ header, footer, nav, section, article, aside {
         display: block;   
 }
 
-body {
-	background-color: #182432;
-}
-
 img, p {
 	margin: 1em 1em 1em 1em;
 	width: 100%;
 }
 
 p {
-	color: white;
 	font-size: 16pt;
 }
 
@@ -27,6 +22,6 @@ h1{
 	
 }
 
-h4{
-    color: white;
+.navbar-inverse {
+    margin-bottom: 0;
 }
