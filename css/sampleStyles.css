@@ -10,6 +10,7 @@ header, footer, nav, section, article, aside {
 img, p {
 	margin: 1em 1em 1em 1em;
 	width: 100%;
+	box-shadow: 10px 10px 5px grey;
 }
 
 p {
