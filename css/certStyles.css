@@ -1,0 +1,40 @@
+/*  StyleSheet for certifications page*/
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+#firstSection {
+    background-color: #182432;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+h2 {
+	margin-left: auto;
+	margin-right: auto;
+}
+hr {
+    color: black;
+}
+
+p {
+	font-size: 16pt;
+	padding: 1em;
+}
+
+h1{
+	font-family: "Georgia", Times, serif;
+	background-color: #182432;
+	color: white;
+	text-align: center;
+	padding: .3em;
+	font-size: 48pt;
+	
+}
+
+.navbar-inverse {
+    margin-bottom: 0;
+}
