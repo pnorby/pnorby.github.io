@@ -3,10 +3,7 @@
 header, footer, nav, section, article, aside {
         display: block;   
 }
-#firstpic {
-	margin: auto;
-	text-align: center;
-}
+
 #firstSection {
     background-color: #182432;
 }
