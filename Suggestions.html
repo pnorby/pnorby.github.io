@@ -17,44 +17,41 @@
 	<body>
 	<header> 
 	<nav class="navbar navbar-inverse" id="theNav">
-	    <div class="container-fluid">
-	    
-		<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	    </button>
-		</div>
+	    <div class="container-fluid">	    
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			</div>
 		<div class="collapse navbar-collapse" id="myNavBar">
-		<ul class="nav navbar-nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="AboutTheDeveloper.html">About</a></li>
-			<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Education<span class="caret"></span></a>
-			<ul class="dropdown-menu">
-				<li><a href="education.html">Madison College</a></li>
-				<li><a href="certificates.html">Certificates</a></li>
-			</ul>
-		</li>
-			<li><a href="Experience.html">Experience</a></li>
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-				<li><a href="phpSamples.html">PHP / MySQL</a></li>
-				<li><a href="javaSamples.html">Java</a></li>
-				<li><a href="cSharpSamples.html">.NET</a></li>
-				<!--<li><a href="#">HTML</a></li>
-				<li><a href="sqlSamples.html">SQL</a></li> -->
-				</ul>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="AboutTheDeveloper.html">About</a></li>
+					<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Education<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					<li><a href="education.html">Madison College</a></li>
+					<li><a href="certificates.html">Certificates</a></li>
+					</ul>
+					</li>
+				<li><a href="Experience.html">Experience</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					<li><a href="phpSamples.html">PHP / MySQL</a></li>
+					<li><a href="javaSamples.html">Java</a></li>
+					<li><a href="cSharpSamples.html">.NET</a></li>
+					<li><a href="angularSamples.html">Angular</a></li>
+					</ul>
 				</li>
 				<li><a href="Suggestions.html">Suggestions</a></li>
-		</ul>
-      
-		<ul class="nav navbar-nav navbar-right">
-			
-			<li><a href="mailto:paulnorby@me.com"><span class="glyphicon glyphicon-envelope"></span> paulnorby@me.com</a></li>
-		</ul>
+			</ul>
+		
+			<ul class="nav navbar-nav navbar-right">				
+				<li><a href="mailto:paulnorby@me.com"><span class="glyphicon glyphicon-envelope"></span> paulnorby@me.com</a></li>
+			</ul>
 	  </div>
 	</div>
   </nav>
@@ -66,8 +63,34 @@
 </div>
 
 <div class="container">
-	<h2>This page will allow users to submit suggestions.</h2>
+	<h2>This page will allow users to submit suggestions. I am thinking that this page will utilize some Azure Queue or Message service.  While I am building, here are some examples</h2>
 	<br />
+	<div class="list-group">
+		<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+		  <div class="d-flex w-100 justify-content-between">
+			<h5 class="mb-1">Suggestion 1 Example</h5>
+			<small>3 days ago</small>
+		  </div>
+		  <p class="mb-1">Go for the Azure Developer certification because...</p>
+		  <small>Senior Cloud Developer</small>
+		</a>
+		<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+		  <div class="d-flex w-100 justify-content-between">
+			<h5 class="mb-1">Suggest 2 Example</h5>
+			<small class="text-muted">5 days ago</small>
+		  </div>
+		  <p class="mb-1">Use more JavaScript and CSS in your portfolio site to make it stand out.</p>
+		  <small class="text-muted">Front-End Web Developer</small>
+		</a>
+		<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+		  <div class="d-flex w-100 justify-content-between">
+			<h5 class="mb-1">Suggestion 3 Example</h5>
+			<small class="text-muted">7 days ago</small>
+		  </div>
+		  <p class="mb-1">I'd like to see more technologies and projects added to your site</p>
+		  <small class="text-muted">Hiring Manager</small>
+		</a>
+	  </div>
 </div>		
 		
 </body>
