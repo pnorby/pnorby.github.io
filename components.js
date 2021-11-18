@@ -12,9 +12,6 @@ class MyNavBar extends HTMLElement {
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="AboutTheDeveloper.html">About</a>
           </li>
           <li class="nav-item dropdown">
