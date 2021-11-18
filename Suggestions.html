@@ -10,14 +10,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="components/components.js" type="text/javascript" defer></script>
 	<link rel="stylesheet" type="text/css" href="css/sampleStyles.css">
 </head>
 
 	<body>
 	<header> 
-	<nav class="navbar navbar-inverse" id="theNav">
+		<mynavbar-component></mynavbar-component>
+	<!-- <nav class="navbar navbar-inverse" id="theNav">
 	    <div class="container-fluid">	    
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
@@ -55,7 +57,7 @@
 			</ul>
 	  </div>
 	</div>
-  </nav>
+  </nav> -->
 </header>
 <div class="row" id="firstSection">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="javaTitle">
@@ -67,29 +69,29 @@
 	<h2>This page will allow users to submit suggestions. I am thinking that this page will utilize some Azure Queue or Message service.  While I am building, here are some examples</h2>
 	<br />
 	<div class="list-group">
-		<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+		<a  class="list-group-item list-group-item-action flex-column align-items-start active">
 		  <div class="d-flex w-100 justify-content-between">
 			<h5 class="mb-1">Suggestion 1 Example</h5>
 			<small>3 days ago</small>
 		  </div>
 		  <p class="mb-1">Go for the Azure Developer certification because...</p>
-		  <small>Senior Cloud Developer</small>
+		  <small>- Senior Cloud Developer</small>
 		</a>
-		<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+		<a  class="list-group-item list-group-item-action flex-column align-items-start">
 		  <div class="d-flex w-100 justify-content-between">
-			<h5 class="mb-1">Suggest 2 Example</h5>
+			<h5 class="mb-1">Suggestion 2 Example</h5>
 			<small class="text-muted">5 days ago</small>
 		  </div>
 		  <p class="mb-1">Use more JavaScript and CSS in your portfolio site to make it stand out.</p>
-		  <small class="text-muted">Front-End Web Developer</small>
+		  <small class="text-muted">- Front-End Web Developer</small>
 		</a>
-		<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+		<a class="list-group-item list-group-item-action flex-column align-items-start">
 		  <div class="d-flex w-100 justify-content-between">
 			<h5 class="mb-1">Suggestion 3 Example</h5>
 			<small class="text-muted">7 days ago</small>
 		  </div>
 		  <p class="mb-1">I'd like to see more technologies and projects added to your site</p>
-		  <small class="text-muted">Hiring Manager</small>
+		  <small class="text-muted">- Hiring Manager</small>
 		</a>
 	  </div>
 </div>		
