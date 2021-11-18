@@ -40,6 +40,9 @@ class MyNavBar extends HTMLElement {
         <a class="dropdown-item" href="angularSamples.html">Angular</a>  
         </div>
       </li>
+      <li class="nav-item">
+            <a class="nav-link" href="Suggestions.html">Feedback</a>
+          </li>
         </ul>
       </div>
     </nav>
