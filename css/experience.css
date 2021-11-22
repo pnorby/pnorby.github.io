@@ -6,18 +6,18 @@ header, footer, nav, section, article, aside {
 body, html {
 	height: 100%;
 }
-.bg {
+/*.bg {
 	 /* The image used */
-    background-image: url("../images01/developercodinginphp.jpg");
+    /*background-image: url("../images01/developercodinginphp.jpg");
 
     /* Full height */
-    height: 100%; 
+    /*height: 100%; 
 
     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    /*background-position: center;
+    /*background-repeat: no-repeat;
+    /*background-size: cover;
+/*}*/
 
 #experienceContent {
 	padding: 2em;
