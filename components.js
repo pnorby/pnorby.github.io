@@ -26,6 +26,9 @@ class MyNavBar extends HTMLElement {
           <li class="nav-item">
             <a class="nav-link" href="Experience.html">Experience</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Portfolio.html">Portfolio</a>
+          </li>
           <!--<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Portfolio
