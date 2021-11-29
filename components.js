@@ -26,7 +26,7 @@ class MyNavBar extends HTMLElement {
           <li class="nav-item">
             <a class="nav-link" href="Experience.html">Experience</a>
           </li>
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Portfolio
         </a>
@@ -36,9 +36,9 @@ class MyNavBar extends HTMLElement {
         <a class="dropdown-item" href="cSharpSamples.html">.NET</a>
         <a class="dropdown-item" href="angularSamples.html">Angular</a>  
         </div>
-      </li>
+      </li>-->
       <li class="nav-item">
-            <a class="nav-link" href="Experience.html">References</a>
+            <a class="nav-link" href="References.html">References</a>
           </li>
       <li class="nav-item">
             <a class="nav-link" href="Suggestions.html">Feedback</a>
