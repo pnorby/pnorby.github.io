@@ -11,9 +11,9 @@ class MyNavBar extends HTMLElement {
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-          <!--<li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="AboutTheDeveloper.html">About</a>
-          </li>-->
+          </li>
           <!--<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Education
@@ -43,14 +43,27 @@ class MyNavBar extends HTMLElement {
       <li class="nav-item">
             <a class="nav-link" href="References.html">References</a>
           </li>
-      <li class="nav-item">
-            <a class="nav-link" href="Suggestions.html">Feedback</a>
-          </li>
+      
         </ul>
       </div>
     </nav>
       `;
     }
   }
+  class MyFooter extends HTMLElement {
+    constructor() {
+      super();
+    }
   
+    connectedCallback() {
+      this.innerHTML = `
+      <footer class="footer text-center">
+      <div class="container">
+        <span class="text-muted">Paul Norby - Fitchburg, WI &nbsp; &nbsp; &nbsp; &#9743; 608-347-8911</span><span style="float:right">Got any good advice?  Share it <a href="Suggestions.html">here</a>!</span>
+      </div>
+    </footer>
+      `;
+    }
+  }
   customElements.define('mynavbar-component', MyNavBar);
+  customElements.define('myfooter-component', MyFooter);

@@ -12,6 +12,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="components.js" type="text/javascript"></script>
+  <link href="sticky-footer-navbar.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/experience.css">
 </head>
 
@@ -23,10 +24,16 @@
     </header>
     <div class="container-fluid">
       <br/>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="display-3">Work</h1>
+        </div>
+      </div>      
+      <br/>
+      <br />
       <div class="row"> 
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
           <h3>Where I've been</h3>
-          <br/>
           <div class="text-left">
           <p>As a .NET Developer at WPS Health Solutions I used Visual Studio 2017 to work on a variety of batch applications utilizing C# and VB.
             We followed an agile SDLC allowing us to ship bug fixes and enhancements quickly.  Through WPS, I was also able to obtain my Dell Boomi Professional Developer certificate and work
@@ -39,7 +46,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center" style="border-left-style: solid; border-right-style: solid;">
           <h3>What I'm doing</h3>
           <div class="text-left">
             <p>
@@ -47,8 +54,8 @@
             </p>
             <p>
               Continuous learning is important to me.  Outside of work I continue to enhance my skills in a variety of ways.  I am currently enrolled at Madison College in JavaScript Frameworks which focuses on Angular.  I try and apply the concepts I am learning to my <a href="https://pnorby.github.io/rent-a-car">car-rental demo app</a>.
-              I also work on my application <a href="https://sheeptrick1.azurewebsites.net">SheepsTrick</a>, a web based scoring
-              application for the popular mid-west card game "Sheepshead".
+              I also work on my application <a href="https://sheeptrick1.azurewebsites.net">SheepTrick</a>, a web based scoring
+              application for the popular mid-west card game "Sheepshead" hosted in Azure.
             </p>
           </div>
         </div>
@@ -56,7 +63,7 @@
           <h3>The Next Chapter</h3>
           <div class="text-left">
             <p>
-              Keeping one's career on a desired trajectory can be difficult.  Sometimes we are simply not in control of the type of work or the tools we use.  I see myself continuing to enhance my abilities as a full-stack developer, cloud developer, and architect.  The best way to do this, in my opinion, is with real world experience.  Do you have an opportunity 
+              Keeping one's career on a desired trajectory can be difficult.  Sometimes we are simply not in control of the type of work or the tools we use.  I see myself continuing to enhance my abilities as a full-stack developer, cloud developer, and architect.  The best way to do this is with real world experience.  Do you have an opportunity 
               in an organization that focuses on team-work and continuous learning?  Would the skills I just mentioned be part of the job?  If so, get in touch!
             </p>
             <br/>
@@ -68,7 +75,62 @@
           </div>
         </div>
     </div>
+    <br/>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="display-3">Education</h1>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+      
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" style="border-right-style: solid;">
+        <h3>Formal</h3>
+        <br />
+        <div class="text-left">
+          <p><b>A.S. IT-Web Software Development:</b> Coursework related to back-end development including C#, Java, and PHP.  Front-end courses included
+             HTML/CSS, JavaScript, JavaScript Frameworks (Angular).  Database Programming using Oracle DB and MySQL.  
+            </p>
+            <br />
+            <p><b>Applications Used:</b> Tools and IDEs include Visual Studio, Eclipse, Intelli J, 
+              VMWare, Apache TomCat, GIT, GitHub, Amazon Web Services.</p>
+              <br />
+              <p><b>Concepts Learned:</b> Object oriented programming, application architecture (MVC, DAO), entity framework,  database normalization, SDLC best-practices, single responsibility principle,
+                 dependency injection, cloud-hosting, REST/SOAP</p>
+          </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+        <h3>Self-paced</h3>
+        <br />
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs 12 text-center">
+            <div class="row">
+              <div class="col-lg-12">
+                <img src="images01/AzureFundCert.jpg"/>
+              </div>
+              <div class="col-lg-12">
+                <p>Microsoft Azure Fundamentals</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs 12 text-center">
+            <div class="row">
+              <div class="col-lg-12">
+                <img src="images01/BoomiCert.png"/>
+              </div>
+              <div class="col-lg-12">
+                <p>Dell Boomi Professional Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
   </div>
+  <myfooter-component></myfooter-component>
   </body>
   </div>
+  
   </html>
