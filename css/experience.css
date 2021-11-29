@@ -24,12 +24,12 @@ body, html {
 }
 
 p {
-	color: white;
+	color: black;
 	font-size: 14pt;
 	padding: 1em;
-	background-color: #b0b4b9;
-	border: solid white 2px;
-	box-shadow: 10px 10px 5px grey;
+	/*background-color: #b0b4b9;
+	/*border: solid white 2px;
+	/*box-shadow: 10px 10px 5px grey;*/
 }
 
 .navbar-inverse {
@@ -40,11 +40,8 @@ p {
 	background-color: #182432;
 }
 
-h1{
-	background-color:#182432;
+h3{
+	
 	font-family: "Georgia", Times, serif;
-	color: white;
-	text-align: center;
-	padding: .3em;
-	font-size: 48pt;
+	color: #1767c3;
 }
