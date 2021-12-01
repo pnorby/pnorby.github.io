@@ -4,77 +4,24 @@ header, footer, nav, section, article, aside {
         display: block;   
 }
 
-body { 
-	background-image: url("../images/background02.jpg");
-	font-family: Calibri, Arial, sans-serif;
-}
-
-header {
-	height: 15em;
-	background-color: #1c467b;
-	margin-bottom: 1em;
-	border-radius: 10px;
-	text-align: center;
-}
-
-h1{
-	font-family: Snell roundhand;
-	font-size: 48pt;
-	text-align: center;
-	color: white;
-}
-p {
-	text-align: center;
-	color: white;
-}
-
-#screenContainer {
-	background-color: black;
-}
-
-.languageIcon {
-	margin-bottom: 1em;
-	margin-top: 1em;
-	border-radius: 10px;
-	width: 100%;
-}
-#rubyIcon {
-	border-radius: 20px;
-	width: 100%;
-}
-
-#cSharpIcon {
-	border-radius: 20px;
-	width: 100%;
-}
-
-#javaIcon {
-	margin-top: 2em;
-	border-radius: 20px;
-	width: 100%;	
-}
-
-#javaScriptIcon {
-	border-radius: 20px;
-	width: 100%;
-}
-
-#php02Icon {
-	border-radius: 20px;
-	width: 100%;	
-}
-
-#wordPressIcon {
-	border-radius: 20px;
-	width: 100%;
-}
 
 
-[class*="glyph"] {
-    color: gray;
-	padding: 5px;
+@media(min-width:1000px) {
+	.hide-on-desktop {
+		display:none;
+	};
 }
 
+@media(max-width:999px) and (min-width:767px) {
+	.hide-on-laptop {
+		display:none;
+	};
+}
 
+@media(max-width:766px) {
+	.hide-on-mobile {
+		display:none;
+	};
+}
 
 
