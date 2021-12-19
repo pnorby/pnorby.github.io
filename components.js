@@ -14,15 +14,10 @@ class MyNavBar extends HTMLElement {
           <li class="nav-item">
             <a class="nav-link" href="AboutTheDeveloper.html">About</a>
           </li>
-          <!--<li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Education
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="education.html">Madison College</a>
-          <a class="dropdown-item" href="certificates.html">Certifications</a>         
-        </div>
-      </li>-->
+          <li class="nav-item">
+        <a class="nav-link" href="education.html">Education</a>        
+        
+      </li>
           <li class="nav-item">
             <a class="nav-link" href="Experience.html">Experience</a>
           </li>
@@ -40,9 +35,9 @@ class MyNavBar extends HTMLElement {
         <a class="dropdown-item" href="angularSamples.html">Angular</a>  
         </div>
       </li>-->
-      <li class="nav-item">
+      <!--<li class="nav-item">
             <a class="nav-link" href="References.html">References</a>
-          </li>
+          </li>-->
       
         </ul>
       </div>
