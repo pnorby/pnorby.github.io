@@ -53,7 +53,7 @@ class MyNavBar extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
       <footer class="footer text-center">
-      <div class="container">
+      <div class="container-fluid">
         <span class="text-muted">Paul Norby - Fitchburg, WI &nbsp; &nbsp; &nbsp; &#9743; 608-347-8911</span><span style="float:right">Got any good advice?  Share it <a href="Suggestions.html">here</a>!</span>
       </div>
     </footer>
