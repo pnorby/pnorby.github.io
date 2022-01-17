@@ -34,4 +34,10 @@ header, footer, nav, section, article, aside {
 	background-color: #f5f5f5;
   }
 
+  img {
+	width: auto ;
+	max-width: 100% ;
+	height: auto ;
+  }
+
 
