@@ -38,6 +38,8 @@ header, footer, nav, section, article, aside {
 	width: auto ;
 	max-width: 100% ;
 	height: auto ;
+	border: 1px solid black;
+    box-shadow:5px 5px gray;
   }
 
 
