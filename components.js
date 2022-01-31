@@ -35,9 +35,9 @@ class MyNavBar extends HTMLElement {
         <a class="dropdown-item" href="angularSamples.html">Angular</a>  
         </div>
       </li>-->
-      <!--<li class="nav-item">
-            <a class="nav-link" href="References.html">References</a>
-          </li>-->
+      <li class="nav-item">
+            <a class="nav-link" href="azureSamples.html">References</a>
+          </li>
       
         </ul>
       </div>
