@@ -6,7 +6,13 @@ header, footer, nav, section, article, aside {
 body, html {
 	height: 100%;
 }
+.footer{
 
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
 #educationAccordion {
     padding: 2em;
 }

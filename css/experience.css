@@ -46,7 +46,7 @@ h3{
 	color: #1767c3;
 }
 .footer {
-	/*position: absolute;*/
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	/* Set the fixed height of the footer here */
